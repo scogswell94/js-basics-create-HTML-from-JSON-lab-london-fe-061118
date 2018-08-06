@@ -4,5 +4,5 @@ console.log(movies)
 document.getElementById("director").innerHTML = movies["Titanic"]["director"] 
 console.log(movies)
 
-document.getElementById("director").innerHTML = movies["Titanic"]["director"] 
+document.getElementById("genre").innerHTML = movies["Titanic"]["genre"] 
 console.log(movies)
