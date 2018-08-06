@@ -47,6 +47,8 @@ console.log(movies)
 document.getElementById("Terminator 2").addEventListener("click", film2)
 function film2() {
   
+document.getElementById("title").innerHTML = movies["Terminator 2"]["title"] 
 
+console.log(movies)
   
 }
