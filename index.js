@@ -66,5 +66,25 @@ console.log(movies)
 document.getElementById("audienceScore").innerHTML = movies["Terminator 2"]["audienceScore"] 
 console.log(movies)
 
+
+let cast = movies["Terminator 2"]["cast"];
+let i;
+for (i = 0; i < cast.length; i++) {
+    document.getElementById("cast").innerHTML += movies["Terminator 2"]["cast"][i]["actor"] + "<br>";
+    document.getElementById("cast").innerHTML += movies["Terminator 2"]["cast"][i]["role"] + "<br>";
+} 
+console.log(movies)
+
+
+let reviews = movies["Terminator 2"]["reviews"];
+let j;
+for (j = 0; j < reviews.length; j++) {
+    document.getElementById("reviews").innerHTML += movies["Terminator 2"]["reviews"][j]["username"] + "<br>";
+    document.getElementById("reviews").innerHTML += movies["Terminator 2"]["reviews"][j]["content"] + "<br>";
+    
+}
+console.log(movies)
+
+}
   
 }
