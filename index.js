@@ -5,3 +5,4 @@ document.addEventListener("DOMContentloaded", (e) => {
   document.getElementById("title").innerHTML=movies
   console.log(movies)
 })
+console.log("LOADED")
