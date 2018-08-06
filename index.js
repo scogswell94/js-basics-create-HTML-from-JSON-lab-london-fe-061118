@@ -43,3 +43,10 @@ console.log(movies)
 
 }
 
+
+document.getElementById("Titanic").addEventListener("click", film)
+function film() {
+  
+  
+  
+}
