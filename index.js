@@ -13,7 +13,7 @@ console.log(movies)
 document.getElementById("poster").innerHTML = movies["Titanic"]["poster"] 
 console.log(movies)
 
-document.getElementById("poster").innerHTML = movies["Titanic"]["poster"] 
+document.getElementById("description").innerHTML = movies["Titanic"]["description"] 
 console.log(movies)
 
 document.getElementById("poster").innerHTML = movies["Titanic"]["poster"] 
