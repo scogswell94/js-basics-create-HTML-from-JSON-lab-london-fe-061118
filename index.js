@@ -18,3 +18,9 @@ console.log(movies)
 
 document.getElementById("audienceScore").innerHTML = movies["Titanic"]["audienceScore"] 
 console.log(movies)
+
+document.getElementById("description").innerHTML = movies["Titanic"]["description"] 
+console.log(movies)
+
+document.getElementById("audienceScore").innerHTML = movies["Titanic"]["audienceScore"] 
+console.log(movies)
