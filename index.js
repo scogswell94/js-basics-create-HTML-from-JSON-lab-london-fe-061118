@@ -7,5 +7,5 @@ console.log(movies)
 document.getElementById("genre").innerHTML = movies["Titanic"]["genre"] 
 console.log(movies)
 
-document.getElementById("genre").innerHTML = movies["Titanic"]["genre"] 
+document.getElementById("filmRating").innerHTML = movies["Titanic"]["filmRating"] 
 console.log(movies)
