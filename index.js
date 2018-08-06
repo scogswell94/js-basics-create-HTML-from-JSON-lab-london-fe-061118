@@ -79,12 +79,14 @@ console.log(movies)
 let reviews = movies["Terminator 2"]["reviews"];
 let j;
 for (j = 0; j < reviews.length; j++) {
-    document.getElementById("reviews").innerHTML += movies["Terminator 2"]["reviews"][j]["username"] + "<br>";
-    document.getElementById("reviews").innerHTML += movies["Terminator 2"]["reviews"][j]["content"] + "<br>";
+    document.getElementById("reviews").innerHTML += movies["Terminator 2"]["reviews"][j]["username"]
+    + "<br>";
+    document.getElementById("reviews").innerHTML += movies["Terminator 2"]["reviews"][j]["content"] 
+    + "<br>";
     
 }
 console.log(movies)
 
-}
+
   
 }
