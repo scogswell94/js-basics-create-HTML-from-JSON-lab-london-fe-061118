@@ -44,8 +44,8 @@ console.log(movies)
 }
 
 
-document.getElementById("Terminator 2").addEventListener("click", film)
-function film() {
+document.getElementById("Terminator 2").addEventListener("click", film2)
+function film2() {
   
 
   
