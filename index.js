@@ -35,7 +35,7 @@ console.log(movies)
 let reviews = movies["Titanic"]["reviews"];
 let j;
 for (j = 0; j < reviews.length; j++) {
-    document.getElementById("reviews").innerHTML += movies["Titanic"]["reviews"][i]["username"] + "<br>";
+    document.getElementById("reviews").innerHTML += movies["Titanic"]["reviews"][j]["username"] + "<br>";
     
 }
 console.log(movies)
