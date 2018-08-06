@@ -30,6 +30,8 @@ for (i = 0; i < cast.length; i++) {
 } 
 console.log(movies)
 
+
+
 document.getElementById("reviews").innerHTML = movies["Titanic"]["reviews"] 
 console.log(movies)
 }
