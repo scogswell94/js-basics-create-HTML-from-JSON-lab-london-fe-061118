@@ -19,7 +19,12 @@ console.log(movies)
 document.getElementById("audienceScore").innerHTML = movies["Titanic"]["audienceScore"] 
 console.log(movies)
 
-document.getElementById("cast").childNodes.length.to.equal(4) = movies["Titanic"]["cast"] 
+document.getElementById("cast") var i;
+for (i = 0; i < cast.length; i++) { 
+    text += cast[i] + "<br>";
+}
+
+= movies["Titanic"]["cast"] 
 console.log(movies)
 
 document.getElementById("reviews").innerHTML = movies["Titanic"]["reviews"] 
