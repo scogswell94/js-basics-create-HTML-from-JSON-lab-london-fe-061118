@@ -10,7 +10,7 @@ console.log(movies)
 document.getElementById("filmRating").innerHTML = movies["Titanic"]["filmRating"] 
 console.log(movies)
 
-document.getElementById("poster") .src = movies["Titanic"]["poster"] 
+document.getElementById("poster").src = movies["Titanic"]["poster"] 
 console.log(movies)
 
 document.getElementById("description").innerHTML = movies["Titanic"]["description"] 
