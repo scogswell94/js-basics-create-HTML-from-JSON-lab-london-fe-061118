@@ -31,6 +31,13 @@ for (i = 0; i < cast.length; i++) {
 } 
 console.log(movies)
 
+let cast = movies["Titanic"]["review"];
+let i;
+for (i = 0; i < cast.length; i++) {
+    document.getElementById("review").innerHTML += movies["Titanic"]["cast"][i]["actor"] + "<br>";
+    document.getElementById("review").innerHTML += movies["Titanic"]["cast"][i]["role"] + "<br>";
+} 
+console.log(movies)
 
 
 document.getElementById("reviews").innerHTML = movies["Titanic"]["reviews"] 
