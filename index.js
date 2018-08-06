@@ -3,3 +3,6 @@ console.log(movies)
 
 document.getElementById("director").innerHTML = movies["Titanic"]["director"] 
 console.log(movies)
+
+document.getElementById("director").innerHTML = movies["Titanic"]["director"] 
+console.log(movies)
