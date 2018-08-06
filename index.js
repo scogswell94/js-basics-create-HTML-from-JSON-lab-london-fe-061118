@@ -49,6 +49,8 @@ function film2() {
   
 document.getElementById("title").innerHTML = movies["Terminator 2"]["title"] 
 
-console.log(movies)
+
+
+
   
 }
