@@ -10,5 +10,5 @@ console.log(movies)
 document.getElementById("filmRating").innerHTML = movies["Titanic"]["filmRating"] 
 console.log(movies)
 
-document.getElementById("filmRating").innerHTML = movies["Titanic"]["filmRating"] 
+document.getElementById("poster").innerHTML = movies["Titanic"]["poster"] 
 console.log(movies)
