@@ -50,5 +50,11 @@ function film() {
 document.getElementById("title").innerHTML = movies["Terminator 2"]["title"] 
 
 console.log(movies)  
+
+document.getElementById("genre").innerHTML = movies["Terminator 2"]["genre"] 
+console.log(movies)
+
+document.getElementById("filmRating").innerHTML = movies["Terminator 2"]["filmRating"] 
+console.log(movies)
   
 }
