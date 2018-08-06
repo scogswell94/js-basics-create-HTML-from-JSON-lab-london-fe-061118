@@ -57,7 +57,8 @@ console.log(movies)
 document.getElementById("filmRating").innerHTML = movies["Terminator 2"]["filmRating"] 
 console.log(movies)
 
-
+document.getElementById("poster").src = movies["Terminator 2"]["poster"] 
+console.log(movies)
 
   
 }
