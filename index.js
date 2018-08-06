@@ -23,11 +23,9 @@ console.log(movies)
 document.getElementById("audienceScore").innerHTML = movies["Titanic"]["audienceScore"] 
 console.log(movies)
 
-let cast = 
-
 let i;
 for (i = 0; i < cast.length; i++) {
-    document.getElementById("cast").innerHTML = 
+    document.getElementById("cast").innerHTML = movies["Titanic"]["cast"][0]["cast"];
 } 
 console.log(movies)
 
