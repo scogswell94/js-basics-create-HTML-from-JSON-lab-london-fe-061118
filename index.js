@@ -60,10 +60,10 @@ console.log(movies)
 document.getElementById("poster").src = movies["Terminator 2"]["poster"] 
 console.log(movies)
 
-document.getElementById("description").innerHTML = movies["Titanic"]["description"] 
+document.getElementById("description").innerHTML = movies["Terminator 2"]["description"] 
 console.log(movies)
 
-document.getElementById("audienceScore").innerHTML = movies["Titanic"]["audienceScore"] 
+document.getElementById("audienceScore").innerHTML = movies["Terminator 2"]["audienceScore"] 
 console.log(movies)
 
   
