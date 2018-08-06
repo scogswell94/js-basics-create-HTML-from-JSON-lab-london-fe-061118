@@ -23,11 +23,12 @@ console.log(movies)
 document.getElementById("audienceScore").innerHTML = movies["Titanic"]["audienceScore"] 
 console.log(movies)
 
-document.getElementById("cast") = movies["Titanic"]["cast"] 
+let cast = movies["Titanic"]["cast"];
+
 let i;
 for (i = 0; i < cast.length; i++) { 
     text += cast[i] + "<br>";
-    
+    document.getElementById("reviews").innerHTML = movies["Titanic"]["reviews"] 
 } 
 console.log(movies)
 
