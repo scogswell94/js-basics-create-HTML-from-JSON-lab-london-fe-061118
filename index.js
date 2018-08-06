@@ -22,5 +22,5 @@ console.log(movies)
 document.getElementById("cast").innerHTML = movies["Titanic"]["cast"] 
 console.log(movies)
 
-document.getElementById("audienceScore").innerHTML = movies["Titanic"]["audienceScore"] 
+document.getElementById("reviews").innerHTML = movies["Titanic"]["reviews"] 
 console.log(movies)
