@@ -44,7 +44,7 @@ console.log(movies)
 }
 
 
-document.getElementById("Titanic").addEventListener("click", film)
+document.getElementById("Terminator 2").addEventListener("click", film)
 function film() {
   
   
