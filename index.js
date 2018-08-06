@@ -28,7 +28,7 @@ let cast = movies["Titanic"]["cast"];
 let i;
 for (i = 0; i < cast.length; i++) { 
     text += cast[i] + "<br>";
-    document.getElementById("reviews").innerHTML = movies["Titanic"]["reviews"] 
+    document.getElementById("cast").innerHTML = movies["Titanic"]["reviews"] 
 } 
 console.log(movies)
 
