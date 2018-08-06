@@ -31,16 +31,14 @@ for (i = 0; i < cast.length; i++) {
 } 
 console.log(movies)
 
+
 let cast = movies["Titanic"]["reviews"];
 let i;
 for (i = 0; i < cast.length; i++) {
-    document.getElementById("reviews").innerHTML += movies["Titanic"]["cast"][i][""] + "<br>";
+    document.getElementById("reviews").innerHTML += movies["Titanic"]["reviews"][i][""] + "<br>";
     
 } 
 console.log(movies)
 
 
-document.getElementById("reviews").innerHTML = movies["Titanic"]["reviews"] 
-console.log(movies)
-}
 
