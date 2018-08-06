@@ -26,8 +26,8 @@ console.log(movies)
 let cast = movies["Titanic"]["cast"];
 let i;
 for (i = 0; i < cast.length; i++) {
-    document.getElementById("cast").innerHTML += movies["Titanic"]["cast"][i]["actor"]+ "<br>";
-    document.getElementById("cast").innerHTML += movies["Titanic"]["cast"][i]["role"];
+    document.getElementById("cast").innerHTML += movies["Titanic"]["cast"][i]["actor"] + "<br>";
+    document.getElementById("cast").innerHTML += movies["Titanic"]["cast"][i]["role"] + "<br>";
 } 
 console.log(movies)
 
