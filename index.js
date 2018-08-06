@@ -7,5 +7,5 @@ console.log("LOADED")
 document.getElementById("title").innerHTML = movies["Titanic"]["title"] 
 console.log(movies)
 
-document.getElementById("director").innerHTML = movies["Titanic"]["title"] 
+document.getElementById("director").innerHTML = movies["Titanic"]["director"] 
 console.log(movies)
