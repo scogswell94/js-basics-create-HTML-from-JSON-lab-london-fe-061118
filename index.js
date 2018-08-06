@@ -1,5 +1,6 @@
-document.getElementById()
-
+document.getElementById("Titanic").addEventListener("click", film)
+function film() {
+  
 document.getElementById("title").innerHTML = movies["Titanic"]["title"] 
 
 console.log(movies)
@@ -32,3 +33,5 @@ console.log(movies)
 
 document.getElementById("reviews").innerHTML = movies["Titanic"]["reviews"] 
 console.log(movies)
+}
+
