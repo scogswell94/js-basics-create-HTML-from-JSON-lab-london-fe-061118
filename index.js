@@ -40,5 +40,5 @@ for (j = 0; j < reviews.length; j++) {
 }
 console.log(movies)
 
-
+}
 
